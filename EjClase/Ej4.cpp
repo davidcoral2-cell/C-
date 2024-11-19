@@ -3,8 +3,8 @@ using namespace std;
 
 int main(){
 
-    string a;
-    string b;
+    int a;
+    int b;
 
     cout << "Como te llamas? ";
     cin >> a;
