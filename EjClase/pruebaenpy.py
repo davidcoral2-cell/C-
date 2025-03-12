@@ -22,7 +22,7 @@ for i in range(3):
  print(r)"""
 
 
-nombres = [[0] * 2 for _ in range(5)]
+"""nombres = [[0] * 2 for _ in range(5)]
 
 # Entrada de datos
 for i in range(5):
@@ -35,5 +35,8 @@ for i in range(5):
         print("----------------------------------------------------------")
         print(f"L'array de la fila {i} i la columna {j+1} val: {nombres[i][j]}")
 
-
-
+"""
+r = []
+for e in "GYAIOFIOAWJDJAJWFJHAHSDJIWIOGASLD":
+    r.append(e)
+print(len(r))
