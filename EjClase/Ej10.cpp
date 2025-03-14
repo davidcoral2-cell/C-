@@ -1,54 +1,5 @@
 #include "bits/stdc++.h"
 
-
-int main(){
-    int a, menu(),calclong();
-    std::string dec2base();
-    double suma(), resta(), multi(), potencia(), divi(), mod(), mayor(),mayorde3();
-    a = menu();
-    if (a == 1){
-        suma();
-    }
-    else if (a == 2){
-        resta();
-    }
-    else if (a == 3)
-    {
-        multi();
-    }
-    else if (a == 4)
-    {
-        divi();
-    }
-    else if (a == 5)
-    {
-        mod();
-    }
-    else if (a == 6)
-    {
-        potencia();
-    }
-    else if (a == 7){
-        dec2base();
-    }
-    else if(a == 8){
-        mayor();
-    }
-    else if (a == 9)
-    {
-        mayorde3();
-    }
-    else if (a ==10 )
-    {
-        calclong();
-    }
-    
-    else{
-        std::cout << "Entrada no válida. " << std::endl;
-    }
-
-    return 0;
-}
 int menu(){
     int a;
     std::cout << "Que quieres hacer (Escribe el número)?" <<std::endl<< "1. Suma" <<std::endl<< "2. Resta" 
@@ -190,4 +141,53 @@ int calclong(){
     std::string stringinicial = "GYAIOFIOAWJDJAJWFJHAHSDJIWIOGASLD";
     int longitud = stringinicial.size();
     std::cout << "Mide: "<< longitud <<std::endl;
+}
+
+int main(){
+    int a, menu(),calclong();
+    std::string dec2base();
+    double suma(), resta(), multi(), potencia(), divi(), mod(), mayor(),mayorde3();
+    a = menu();
+    if (a == 1){
+        suma();
+    }
+    else if (a == 2){
+        resta();
+    }
+    else if (a == 3)
+    {
+        multi();
+    }
+    else if (a == 4)
+    {
+        divi();
+    }
+    else if (a == 5)
+    {
+        mod();
+    }
+    else if (a == 6)
+    {
+        potencia();
+    }
+    else if (a == 7){
+        dec2base();
+    }
+    else if(a == 8){
+        mayor();
+    }
+    else if (a == 9)
+    {
+        mayorde3();
+    }
+    else if (a ==10 )
+    {
+        calclong();
+    }
+    
+    else{
+        std::cout << "Entrada no válida. " << std::endl;
+    }
+
+    return 0;
 }
